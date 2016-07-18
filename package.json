@@ -1,0 +1,10 @@
+{
+  "name": "bn2date",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
