@@ -1,18 +1,22 @@
-# bn2date
+# validate-czech-birth-number
 
 Validate and return date from czech birth number.
 
 ## Examples
 
 ```
-var bn = require("../bn2date")
-bn.isValid("7801233540") // -> {year: 1978, month: 1, day: 23}
-bn.isValid("0123456789") // -> false
+const {
+  isCzechBirthNumberValid,
+  getCzechBirthNumberDate
+} = require("../validate-czech-birth-number")
+
+isCzechBirthNumberValid("7801233540") // true 
+getCzechBirthNumberDate("7801233540") // Mon Jan 23 1978 00:00:00 GMT+0100 (Středoevropský standardní čas)
 ```
 
 ## Test
 
 ```
 npm install
-npm run test
+npm test
 ```

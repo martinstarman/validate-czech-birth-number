@@ -1,5 +1,5 @@
 {
-  "name": "bn2date",
+  "name": "validate-czech-birth-number",
   "version": "0.0.1",
   "scripts": {
     "test": "mocha"
