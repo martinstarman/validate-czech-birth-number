@@ -4,7 +4,7 @@ Validate and return date from czech birth number.
 
 ## Examples
 
-```
+```js
 const {
   isCzechBirthNumberValid,
   getCzechBirthNumberDate
@@ -16,7 +16,7 @@ getCzechBirthNumberDate("7801233540") // Mon Jan 23 1978 00:00:00 GMT+0100 (Stř
 
 ## Test
 
-```
+```bash
 npm install
 npm test
 ```
